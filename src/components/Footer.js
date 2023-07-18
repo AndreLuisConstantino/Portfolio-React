@@ -1,6 +1,10 @@
+import "./Footer.css"
+
 const Footer = () => {
     return (
-        <footer></footer>
+        <footer>
+           Todos os direitos Reservados | 2022 | André Luiz 
+        </footer>
     )
 }
 

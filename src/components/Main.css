@@ -1,0 +1,109 @@
+main {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10vw;
+  text-align: left;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hello {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  font-family: "Inter", sans-serif;
+}
+
+.name {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-family: "Inter", sans-serif;
+}
+
+.developer {
+  color: #ff8e5e;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 53px; /* 110.417% */
+}
+
+.info-text {
+  color: #1d1e22;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.button-contact {
+  width: 13.5vw;
+  height: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: #ff8e5e;
+  color: #1d1e22;
+}
+
+.button-contact:hover {
+  transition: 0.4s;
+  background: #fff;
+  border: 1px solid #1d1e22;
+}
+
+.linguagens__container {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+}
+
+.nome-linguagem {
+  font-family: "Inter", sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.14px;
+  text-transform: uppercase;
+}
+
+.separacao {
+  color: #ff8e5e;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.linguagens__container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
