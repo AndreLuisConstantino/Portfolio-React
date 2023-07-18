@@ -1,0 +1,88 @@
+
+header {
+    width: 91%;
+    grid-template-rows: 1;
+    place-self: center;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo__container span {
+    color: #1d1e22;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  .fa-laptop-code {
+    font-size: 50px;
+  }
+  
+  .icons-button__container {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icons i {
+    font-size: 40px;
+    cursor: pointer;
+  }
+  
+  .fa-github:hover {
+    transform: translateY(-10px);
+    transition: 0.4s;
+    color: #ff8e5e;
+  }
+  .fa-twitter:hover {
+    transform: translateY(-10px);
+    transition: 0.4s;
+    color: #ff8e5e;
+  }
+  .fa-linkedin:hover {
+    transform: translateY(-10px);
+    transition: 0.4s;
+    color: #ff8e5e;
+  }
+  
+  .link-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    border: 1px solid #1d1e22;
+    width: 9rem;
+  }
+  
+  .link-cv:hover {
+    background: #ff8e5e;
+    border: none;
+    transition: .4s;
+    color: #fff;
+  }
+  
+  .link-cv span {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }

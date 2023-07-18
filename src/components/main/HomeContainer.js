@@ -1,7 +1,6 @@
-import "./Main.css";
-import andre from "../assets/Content.png";
+import andre from "../../assets/Content.png";
 
-const Main = () => {
+const HomeContainer = () => {
   const linguagem = [
     {
       nome: "Node.Js",
@@ -24,7 +23,7 @@ const Main = () => {
   ];
 
   return (
-    <main>
+    <section className="home__container">
       <div className="info__container">
         <div className="info-text">
           <span className="hello">Olá meu nome é...</span>
@@ -46,16 +45,14 @@ const Main = () => {
       </div>
       <div className="linguagens__container">
         {linguagem.map((nomeLing) => (
-            <div>
-                <span className="nome-linguagem">{nomeLing.nome}</span>
-                {}
-                    <span className="separacao">*</span>
-            </div>
-          
+          <div>
+            <span className="nome-linguagem">{nomeLing.nome}</span>
+            <span className="separacao">*</span>
+          </div>
         ))}
       </div>
-    </main>
+    </section>
   );
 };
 
-export default Main;
+export default HomeContainer;

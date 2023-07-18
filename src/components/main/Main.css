@@ -1,10 +1,21 @@
 main {
-  height: 80%;
+  place-self: center;
+  height: 180vh;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
+}
+
+.home__container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
 }
 
 .info__container {
@@ -12,7 +23,6 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
   gap: 10vw;
   text-align: left;
 }
@@ -101,9 +111,52 @@ main {
 }
 
 .linguagens__container div {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+.projects__container {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10vh 1fr;
+}
+
+.projects__container h1 {
+  grid-row: 1;
+  color: #ff8e5e;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.projects__images {
+  grid-row: 2;
+  place-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12vw;
+}
+
+.projects__images div {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects__images span {
+  font-family: "Inter", sans-serif;
+  color: #1d1e22;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.14px;
+  text-transform: uppercase;
 }

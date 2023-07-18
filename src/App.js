@@ -1,8 +1,8 @@
 import "./App.css";
 import "./Reset.css"
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import Header from "./components/header/Header";
+import Main from "./components/main/Main.js";
+import Footer from "./components/footer/Footer.js";
 
 function App() {
 
