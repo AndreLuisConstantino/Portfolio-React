@@ -1,6 +1,6 @@
 main {
   place-self: center;
-  height: 180vh;
+  height: 280vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -122,7 +122,7 @@ main {
 }
 
 .projects__container {
-  height: 90vh;
+  height: 100vh;
   display: grid;
   width: 100%;
   grid-template-columns: 1fr;
@@ -236,4 +236,8 @@ main {
   transform: translateY(-10px);
   transition: 0.4s;
   color: #ff8e5e;
+}
+
+.about__container {
+  height: 90vh;
 }

@@ -1,7 +1,8 @@
 import "./Main.css";
 
-import HomeContainer from "./HomeContainer";
-import ProjectContainer from "./ProjectContainer";
+import HomeContainer from "./HomeContainer.js";
+import ProjectContainer from "./ProjectContainer.js";
+import AboutContainer from "./AboutContainer.js"
 
 const Main = () => {
 
@@ -9,6 +10,7 @@ const Main = () => {
     <main>
       <HomeContainer />
       <ProjectContainer />
+      <AboutContainer />
     </main>
   );
 };
