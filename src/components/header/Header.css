@@ -31,37 +31,7 @@ header {
     font-size: 50px;
   }
   
-  .icons-button__container {
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
-  }
   
-  .icons {
-    display: flex;
-    gap: 15px;
-  }
-  
-  .icons i {
-    font-size: 40px;
-    cursor: pointer;
-  }
-  
-  .fa-github:hover {
-    transform: translateY(-10px);
-    transition: 0.4s;
-    color: #ff8e5e;
-  }
-  .fa-twitter:hover {
-    transform: translateY(-10px);
-    transition: 0.4s;
-    color: #ff8e5e;
-  }
-  .fa-linkedin:hover {
-    transform: translateY(-10px);
-    transition: 0.4s;
-    color: #ff8e5e;
-  }
   
   .link-cv {
     display: flex;
@@ -69,7 +39,8 @@ header {
     align-items: center;
     border-radius: 60px;
     border: 1px solid #1d1e22;
-    width: 9rem;
+    width: 11.5rem;
+    height: 3.5rem;
   }
   
   .link-cv:hover {

@@ -26,22 +26,26 @@ const HomeContainer = () => {
     <section className="home__container">
       <div className="info__container">
         <div className="info-text">
-          <span className="hello">Olá meu nome é...</span>
-          <p className="name">André.</p>
-          <h2 className="developer">
-            Full-Stack <br></br>Developer
-          </h2>
+          <div className="text-icons">
+            <div className="text-align">
+              <span className="hello">Olá meu nome é...</span>
+              <p className="name">André.</p>
+            </div>
+              <div className="icons">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+          </div>
+
+          <h2 className="developer">Full-Stack Developer</h2>
           <span className="info-text">
-            Sou estudante na área de criação e manutenção de <br />
-            sites e desenvolvimento web, tenho conhecimento <br />
-            de prototipação em designer sempre pensando na <br />
-            experiência do úsuario.{" "}
+            Sou estudante de programação com formação Full-Stack. <br />
+            Sou apaixonado por tecnologia e possuo conhecimento em <br />
+            diversas tecnoclogias que são usadas no Desenvolvimento <br />
+            Web.
           </span>
-          <a href="#" className="button-contact">
-            <span>Entre em contato</span>
-          </a>
         </div>
-        <img src={andre} alt="André" />
       </div>
       <div className="linguagens__container">
         {linguagem.map((nomeLing) => (

@@ -24,6 +24,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 10vw;
+  width: 100%;
   text-align: left;
 }
 
@@ -34,37 +35,39 @@ main {
 }
 
 .hello {
-  font-size: 18px;
+  color: #1d1e22;
+  font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 29px;
+  line-height: 29px; /* 90.625% */
   font-family: "Inter", sans-serif;
 }
 
 .name {
-  font-size: 48px;
+  color: #1d1e22;
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  font-family: "Inter", sans-serif;
 }
 
 .developer {
   color: #ff8e5e;
   font-family: "Inter", sans-serif;
-  font-size: 48px;
+  font-size: 64px;
   font-style: normal;
   font-weight: 800;
-  line-height: 53px; /* 110.417% */
+  line-height: 53px; /* 82.813% */
 }
 
 .info-text {
   color: #1d1e22;
   font-family: "Inter", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 22px;
+  line-height: 27px; /* 135% */
 }
 
 .button-contact {
@@ -121,6 +124,7 @@ main {
 .projects__container {
   height: 90vh;
   display: grid;
+  width: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 10vh 1fr;
 }
@@ -133,30 +137,103 @@ main {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  place-self: center;
 }
 
 .projects__images {
   grid-row: 2;
+  height: 100%;
+  width: 100%;
   place-self: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 12vw;
+  justify-content: space-between;
 }
 
-.projects__images div {
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.bottom div {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lion-school-mobile img {
+  width:  8.8vw;
+  height: 30.9vh;
+  flex-shrink: 0;
+}
+
+.top div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top img {
+  width: auto;
+  height: 32.4vh;
+  flex-shrink: 0;
 }
 
 .projects__images span {
   font-family: "Inter", sans-serif;
   color: #1d1e22;
-  font-size: 1.5rem;
+  text-align: center;
+  font-size: 19px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   letter-spacing: 1.14px;
   text-transform: uppercase;
+}
+
+.text-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: end;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icons i {
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.fa-github:hover {
+  transform: translateY(-10px);
+  transition: 0.4s;
+  color: #ff8e5e;
+}
+.fa-twitter:hover {
+  transform: translateY(-10px);
+  transition: 0.4s;
+  color: #ff8e5e;
+}
+.fa-linkedin:hover {
+  transform: translateY(-10px);
+  transition: 0.4s;
+  color: #ff8e5e;
 }
