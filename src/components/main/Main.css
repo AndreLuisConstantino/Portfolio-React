@@ -175,7 +175,7 @@ main {
 }
 
 .lion-school-mobile img {
-  width:  8.8vw;
+  width: 8.8vw;
   height: 30.9vh;
   flex-shrink: 0;
 }
@@ -240,4 +240,44 @@ main {
 
 .about__container {
   height: 90vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 10vh 1fr;
+}
+
+.about__title {
+  grid-row: 1;
+  color: #ff8e5e;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  place-self: center;
+}
+
+.about__me {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-languages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.text-languages span {
+  color: #1d1e22;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px; /* 112.5% */
 }
