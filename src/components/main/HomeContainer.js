@@ -20,6 +20,18 @@ const HomeContainer = () => {
     {
       nome: "bootstrap",
     },
+    {
+      nome: "Java"
+    },
+    {
+      nome: "Typescript"
+    },
+    {
+      nome: "Kotlin"
+    },
+    {
+      nome: "Mysql"
+    },
   ];
 
   return (
@@ -31,11 +43,17 @@ const HomeContainer = () => {
               <span className="hello">Olá meu nome é...</span>
               <p className="name">André.</p>
             </div>
-              <div className="icons">
+            <div className="icons">
+              <a href="https://github.com/AndreLuisConstantino">
                 <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://twitter.com/Andreluiskkjk">
                 <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/andr%C3%A9-luiz-constantino-4b779124a/">
                 <i class="fa-brands fa-linkedin"></i>
-              </div>
+              </a>
+            </div>
           </div>
 
           <h2 className="developer">Full-Stack Developer</h2>
