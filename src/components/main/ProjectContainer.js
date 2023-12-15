@@ -2,6 +2,7 @@ import randomDogs from "../../assets/random-dogs.png";
 import lionSchool from "../../assets/lion-school.png";
 import lionSchoolMobile from "../../assets/lion-school-mobile.png";
 import empresarialChat from "../../assets/empresarial-chat.png";
+import costurie from "../../assets/costurie.png"
 
 const ProjectContainer = () => {
   return (
@@ -17,10 +18,10 @@ const ProjectContainer = () => {
             </span>
           </div>
           <div>
-            <img src={lionSchool} alt="Lion School" />
+            <img src={costurie} alt="Lion School" />
             <span>
-              lION SCHOOL <br />
-              Projeto com consumo de api rest feita em nodejs
+              Costurie<br />
+tcc feito no senai jandira <br />aplicando todos os conhecimentos do curso
             </span>
           </div>
         </div>
